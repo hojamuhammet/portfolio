@@ -1,11 +1,12 @@
 import { IconProps } from "@/typings/icon.types";
 import { theme } from "@/settings/theme.settings";
 
-const Star = (props: IconProps) => {
+const StarIcon = (props: IconProps) => {
   return (
-    <>
+    <div className={`w-${props.width} h-${props.height} mt-[2px]`}>
       {theme === "green" ? (
         <svg
+          className={`${props.className}-${theme}`}
           width={props.width}
           height={props.height}
           viewBox="0 0 14 16"
@@ -25,8 +26,8 @@ const Star = (props: IconProps) => {
               y2="0.779846"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#3DAF7F" />
-              <stop offset="1" stop-color="#E3D1D5" />
+              <stop stopColor="#3DAF7F" />
+              <stop offset="1" stopColor="#E3D1D5" />
             </linearGradient>
           </defs>
         </svg>
@@ -51,8 +52,8 @@ const Star = (props: IconProps) => {
               y2="0.779846"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#3492C7" />
-              <stop offset="1" stop-color="#E3D1D5" />
+              <stop stopColor="#3492C7" />
+              <stop offset="1" stopColor="#E3D1D5" />
             </linearGradient>
           </defs>
         </svg>
@@ -77,14 +78,14 @@ const Star = (props: IconProps) => {
               y2="0.779846"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#FD5A77" />
-              <stop offset="1" stop-color="#E3D1D5" />
+              <stop stopColor="#FD5A77" />
+              <stop offset="1" stopColor="#E3D1D5" />
             </linearGradient>
           </defs>
         </svg>
       ) : null}
-    </>
+    </div>
   );
 };
 
-export default Star;
+export default StarIcon;

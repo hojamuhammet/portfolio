@@ -1,7 +1,11 @@
+import BackgroundGrid from "@/components/BackgroundGrid";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const space_grotesk = Space_Grotesk({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-space-grotesk",
+});
 
 export const metadata = {
   title: "SquareLogic",
@@ -15,7 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={space_grotesk.variable}>
+        <BackgroundGrid />
+        {children}
+      </body>
     </html>
   );
 }
