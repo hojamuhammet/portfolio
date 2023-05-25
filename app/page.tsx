@@ -1,7 +1,13 @@
 import Header from "@/components/Header";
+import Titles from "@/components/Titles";
 
 const Home = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Titles />
+    </>
+  );
 };
 
 export default Home;

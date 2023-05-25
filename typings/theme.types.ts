@@ -1,1 +1,1 @@
-export type ITheme = "green" | "red" | "blue";
+export type ITheme = "GREEN" | "RED" | "BLUE";
