@@ -1,7 +1,7 @@
 import { IData } from "@/typings/data.types";
 
 export const data: IData = {
-  name: "Kakabay",
+  name: "Geralt",
   title:
     "Concept designer ✶ author of design content ✶ researcher of visual language",
   descriptions: [
