@@ -22,4 +22,5 @@ export const data: IData = {
       value: "#",
     },
   ],
+  footerTitle: "Want to start a project? Let’s talk.",
 };

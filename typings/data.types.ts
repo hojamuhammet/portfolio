@@ -3,7 +3,14 @@ export interface IData {
   title: string;
   descriptions: string[];
   links: {
-    type: string;
+    type:
+      | "email"
+      | "instagram"
+      | "squarelogic"
+      | "linkedin"
+      | "pinterest"
+      | "behance";
     value: string;
   }[];
+  footerTitle: string;
 }

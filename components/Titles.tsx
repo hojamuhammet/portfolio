@@ -5,7 +5,7 @@ import { theme } from "@/settings/theme";
 const Titles = () => {
   return (
     <div className="titles">
-      <Container className="mt-8">
+      <Container>
         <p
           className="text-gradient font-SPACEGR text-TITLE font-bold"
           style={{ backgroundImage: styles[`${theme.color}_GRADIENT`] }}
