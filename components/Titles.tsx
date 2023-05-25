@@ -5,9 +5,9 @@ import { theme } from "@/settings/theme";
 const Titles = () => {
   return (
     <div className="titles">
-      <Container className="pt-20">
+      <Container className="mt-8">
         <p
-          className="text-gradient font-SPACEGR text-TITLE"
+          className="text-gradient font-SPACEGR text-TITLE font-bold"
           style={{ backgroundImage: styles[`${theme.color}_GRADIENT`] }}
         >
           <span className="mr-[5vw]"></span>
