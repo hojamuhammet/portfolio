@@ -1,5 +1,4 @@
 import { fontFamily } from "tailwindcss/defaultTheme";
-import textFill from "tailwindcss-text-fill";
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,7 +6,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  plugins: [textFill],
   theme: {
     extend: {
       colors: {
