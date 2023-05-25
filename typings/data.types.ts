@@ -1,6 +1,6 @@
 export interface IData {
   name: string;
-  titles: string[];
+  title: string;
   description_one: string;
   description_two: string;
   links: {

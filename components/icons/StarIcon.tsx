@@ -1,10 +1,10 @@
 import { IconProps } from "@/typings/icon.types";
-import { theme } from "@/settings/theme.settings";
+import { theme } from "@/settings/theme";
 
 const StarIcon = (props: IconProps) => {
   return (
-    <div className={`mt-[2px] ${props.className}`}>
-      {theme === "GREEN" ? (
+    <div className={`${props.className}`}>
+      {theme.color === "GREEN" ? (
         <svg
           className={"star " + theme}
           width={props.width}
@@ -31,7 +31,7 @@ const StarIcon = (props: IconProps) => {
             </linearGradient>
           </defs>
         </svg>
-      ) : theme === "BLUE" ? (
+      ) : theme.color === "BLUE" ? (
         <svg
           width={props.width}
           height={props.height}
@@ -57,7 +57,7 @@ const StarIcon = (props: IconProps) => {
             </linearGradient>
           </defs>
         </svg>
-      ) : theme === "RED" ? (
+      ) : theme.color === "RED" ? (
         <svg
           width={props.width}
           height={props.height}

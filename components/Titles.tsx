@@ -1,16 +1,18 @@
 import { data } from "@/settings/data.settings";
 import Container from "./Container";
-import { v4 } from "uuid";
-import Title from "./Title";
+import { styles } from "@/styles/styles";
+import { theme } from "@/settings/theme";
 const Titles = () => {
   return (
     <div className="titles">
       <Container className="pt-20">
-        <div className="pl-[5vw] inline">
-          {data.titles.map((title) => (
-            <Title title={title} key={v4()} />
-          ))}
-        </div>
+        <p
+          className="text-gradient font-SPACEGR text-TITLE"
+          style={{ backgroundImage: styles[`${theme.color}_GRADIENT`] }}
+        >
+          <span className="mr-[5vw]"></span>
+          {data.title}
+        </p>
       </Container>
     </div>
   );

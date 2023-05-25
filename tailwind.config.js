@@ -37,6 +37,38 @@ module.exports = {
       fontFamily: {
         SPACEGR: ["var(--font-space-grotesk)", ...fontFamily.sans],
       },
+      keyframes: {
+        MOVEBG: {
+          "0%": {
+            backgroundPositionX: "50%",
+            backgroundPositionY: "50%",
+            backgroundSize: "100%",
+          },
+          "25%": {
+            backgroundPositionX: "80%",
+            backgroundPositionY: "20%",
+            backgroundSize: "120%",
+          },
+          "50%": {
+            backgroundPositionX: "40%",
+            backgroundPositionY: "0%",
+            backgroundSize: "130%",
+          },
+          "75%": {
+            backgroundPositionX: "10%",
+            backgroundPositionY: "0%",
+            backgroundSize: "70%",
+          },
+          "100%": {
+            backgroundPositionX: "50%",
+            backgroundPositionY: "50%",
+            backgroundSize: "100%",
+          },
+        },
+      },
+      animation: {
+        BG: "MOVEBG infinite ease-in-out 10s forwards",
+      },
     },
   },
   plugins: [],
