@@ -7,7 +7,7 @@ interface IProps {
 
 const Container = ({ children, className }: IProps) => {
   return (
-    <div className="max-w-[1440px] mx-auto w-full px-10">
+    <div className="max-w-[1440px] mx-auto w-full px-10 transition-all max-lg:px-6">
       {className ? <div className={className}>{children}</div> : children}
     </div>
   );

@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "390px",
+      },
       colors: {
         BG_BLACK: "#252525",
         TEXT_GRADIENT:
