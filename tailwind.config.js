@@ -68,7 +68,7 @@ module.exports = {
         },
       },
       animation: {
-        BG: "MOVEBG infinite ease-in-out 10s forwards",
+        BG: "MOVEBG infinite ease-in-out 15s forwards",
       },
     },
   },
