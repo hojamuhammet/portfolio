@@ -7,7 +7,7 @@ const Titles = () => {
     <div className="titles">
       <Container>
         <p
-          className="text-gradient font-SPACEGR text-TITLE font-bold transition-all max-lg:text-[64px]"
+          className="text-gradient font-SPACEGR text-TITLE font-bold transition-all max-lg:text-[64px] max-sm:text-[32px]"
           style={{ backgroundImage: styles[`${theme.color}_GRADIENT`] }}
         >
           <span className="mr-[5vw]"></span>

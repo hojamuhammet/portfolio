@@ -5,7 +5,7 @@ const FooterTitle = () => {
   return (
     <div>
       <Container className="flex items-center">
-        <h2 className="text-gradient font-SPACEGR bg-TEXT_GRADIENT font-bold text-TITLE transition-all max-lg:text-[64px]">
+        <h2 className="text-gradient font-SPACEGR bg-TEXT_GRADIENT font-bold text-TITLE transition-all max-lg:text-[64px] max-sm:text-[32px]">
           {data.footerTitle}
         </h2>
       </Container>

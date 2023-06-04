@@ -5,7 +5,7 @@ import Container from "./Container";
 const Links = () => {
   return (
     <div>
-      <Container className="links flex items-center flex-wrap flex-grow-0 gap-6 justify-center">
+      <Container className="links flex items-center flex-wrap flex-grow-0 gap-6 justify-center transition-all max-sm:flex-col max-sm:flex-nowrap">
         {data.links.map((link) => (
           <Link type={link.type} value={link.value} />
         ))}

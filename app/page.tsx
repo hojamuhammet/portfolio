@@ -6,7 +6,7 @@ import Titles from "@/components/Titles";
 
 const Home = () => {
   return (
-    <main className="main flex flex-col gap-[5vh] py-20">
+    <main className="main flex flex-col gap-[5vh] py-20 transition-all max-sm:py-10">
       <Header />
       <div className="flex flex-col gap-[3vh]">
         <Titles />
