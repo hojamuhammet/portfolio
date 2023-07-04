@@ -1,12 +1,11 @@
 import { IData } from "@/typings/data.types";
 
 export const data: IData = {
-  name: "Kemal",
+  name: "Hojamuhammet",
   title:
-    "Concept designer ✶ author of design content ✶ researcher of visual language",
+    "Back end developer",
   descriptions: [
-    "I have devoted most of my life to design and have recently realised that I am going to continue to do this for the rest of my life",
-    "Continuing my journey in design research, inspiring others and helping them to unlock their potential, searching for answers and scoring",
+    "As a Back End developer, I am proficient in Golang, RabbitMQ, gRPC, and Python. I specialize in building efficient and reliable back-end systems using these technologies. Let's collaborate to bring your project to life. Feel free to reach out to me to discuss your needs and explore how we can create impactful solutions together.",
   ],
   links: [
     {
