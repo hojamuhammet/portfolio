@@ -5,7 +5,8 @@ export const data: IData = {
   title:
     "Back end developer",
   descriptions: [
-    "As a Back End developer, I am proficient in Golang, RabbitMQ, gRPC, and Python. I specialize in building efficient and reliable back-end systems using these technologies. Let's collaborate to bring your project to life. Feel free to reach out to me to discuss your needs and explore how we can create impactful solutions together.",
+    "As a Back End developer, I am proficient in Golang, RabbitMQ, gRPC, and Python. I specialize in building efficient and reliable back-end systems using these technologies.",
+    "Let's collaborate to bring your project to life. Feel free to reach out to me to discuss your needs and explore how we can create impactful solutions together.",
   ],
   links: [
     {
