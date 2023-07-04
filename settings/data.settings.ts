@@ -1,7 +1,7 @@
 import { IData } from "@/typings/data.types";
 
 export const data: IData = {
-  name: "Geralt",
+  name: "Kemal",
   title:
     "Concept designer ✶ author of design content ✶ researcher of visual language",
   descriptions: [
@@ -11,11 +11,7 @@ export const data: IData = {
   links: [
     {
       type: "email",
-      value: "kashyrberyev@gmail.com",
-    },
-    {
-      type: "instagram",
-      value: "#",
+      value: "atdayewkemal@gmail.com",
     },
     {
       type: "squarelogic",
